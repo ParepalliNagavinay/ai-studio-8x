@@ -1,0 +1,8 @@
+---
+description: Do not alter automatic agent capture logs
+alwaysApply: true
+---
+
+# Agent capture logs
+
+Capture is automatic via `.cursor/hooks.json`. Do not manually write, tidy, summarise, or delete entries in `.agent-logs/`. Do not add `.agent-logs/` to `.gitignore`.
